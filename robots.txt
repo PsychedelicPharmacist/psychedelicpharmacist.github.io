@@ -1,0 +1,11 @@
+# psychedelicpharmacist.github.io
+# This site is a full mirror of https://www.harmreductionadvocate.com/
+# Every page declares <link rel="canonical"> pointing at the matching page on that domain,
+# so search engines consolidate all ranking signals there rather than splitting them.
+# Crawling is deliberately ALLOWED: a crawler must read a page to see its canonical tag.
+# Do not add Disallow rules here without removing the canonical tags first.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.harmreductionadvocate.com/sitemap.xml

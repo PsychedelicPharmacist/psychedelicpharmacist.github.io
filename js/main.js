@@ -236,15 +236,6 @@ function isValidEmail(email) {
 }
 
 /**
- * Placeholder image generator for development
- * (Replace with actual images when available)
- */
-function getPlaceholderImage(width, height, text) {
-    // For production, remove this function and use real images
-    return `https://via.placeholder.com/${width}x${height}?text=${encodeURIComponent(text || 'Image')}`;
-}
-
-/**
  * Lazy Loading Images
  * This will be useful when the site has many images
  */

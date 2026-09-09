@@ -1,323 +1,220 @@
-# HarmReductionAdvocate.com Website
+# HarmReductionAdvocate.com — Educational Archive
 
-This project is a comprehensive website for Mike Bonertz, a Harm Reduction Advocate and Psychedelic Pharmacist. The site showcases his educational resources, services, published articles, and information about the Sophrodelic Legal Magic Mushroom Retreat.
+Static mirror of HarmReductionAdvocate.com: the educational archive of **Responsible Empowered Living, a Canadian Harm Reduction Non-Profit (2022–2025)**, together with the practicum-campaign pages of **Mike Bonertz, Student Counsellor in Training — MPS Candidate, St. Stephen's College**.
 
-## Project Overview
+The site is an educational archive. It is not currently accepting consultations. **Education, not medical advice.**
 
-The HarmReductionAdvocate.com website serves as a professional platform for Mike Bonertz, providing evidence-based information about psychedelic therapies and harm reduction approaches. The site is designed with a premium, modern aesthetic that incorporates psychedelic visual elements while maintaining professional credibility.
+## What this site is
 
-## Features
+- **Psychedelic education and harm reduction resources** preserved from R.E.L.'s public-education work: an introduction, condition-specific resource pages (PTSD, end-of-life distress, substance use disorder) and wellness themes (spiritual wellness, wellness of the well, wellness of the planet, physical well-being). These are presented as educational resources, not as scheduled events.
+- **Practicum-campaign pages** written for practicum supervisors: who Mike is, what he is training toward, what a pharmacist adds to a counselling team, medication safety screening, harm reduction in practice, rural/remote/northern practice, Two-Eyed Seeing, a FAQ, and a note on how to read the older archive material.
+- **Published articles and contributions**, with exact credit for collaborative work.
+- **Sophrodelic Legal Magic Mushroom Retreat** — information about the retreat and sophrology, delivered by Bénédicte (Ben) Mannix, Holistic Therapist.
 
-- **Responsive Design**: Fully responsive across desktop, tablet, and mobile devices
-- **Premium Aesthetic**: Psychedelic gradients, SVG animations, and neural network visualizations
-- **Educational Resources**: In-depth resources on psychedelic therapies for various conditions
-- **Educational Events**: Separate section for psychedelic education events
-- **Published Articles**: Collection of Mike's published works and resources
-- **Sophrodelic Retreat**: Information about legal psilocybin retreats in Jamaica
-- **Contact Information**: Easy way for visitors to connect with Mike via email and Instagram
-- **Downloadable Resources**: Direct access to Word versions of educational materials
-
-## Project Structure
-
-```
-/mike-website/
-├── index.html                  # Homepage with site overview
-├── about.html                  # About Mike Bonertz page
-├── services.html               # Services and consultation information
-├── contact.html                # Contact information page
-├── educational-resources.html  # Main educational resources page
-├── published-articles.html     # Published articles and external resources
-├── retreat.html                # Sophrodelic retreat information
-├── resources/                  # Detailed educational resource pages
-│   ├── ptsd.html               # PTSD and psychedelic therapy
-│   ├── end-of-life-distress.html # End of life care with psychedelics
-│   └── substance-use-disorder.html # Addiction treatment with psychedelics
-├── events/                     # Educational events pages
-│   ├── introduction-new-era.html  # Introduction to psychedelic education
-│   ├── spiritual-wellness.html    # Spiritual wellness event
-│   ├── wellness-of-the-well.html  # Wellness of the well event
-│   ├── wellness-of-the-planet.html # Wellness of the planet event
-│   └── physical-well-being.html   # Physical well-being event
-├── css/
-│   ├── normalize.css           # CSS reset for consistent rendering
-│   ├── style.css               # Main stylesheet
-│   ├── hero-fallback.css       # Hero section styling
-│   ├── premium-cards.css       # Premium card component styling
-│   └── svg-effects.css         # SVG animation effects
-├── js/
-│   └── main.js                 # JavaScript functionality
-├── images/                     # Site images
-│   ├── hra-logo.png            # Site logo
-│   ├── hero/                   # Hero background images
-│   ├── about/                  # About page images
-│   ├── resources/              # Resource page images
-│   └── retreat/                # Retreat page images (including Sophrodelic logo)
-├── svg/                        # SVG assets
-│   ├── logo.svg                # Vector logo
-│   ├── favicon.svg             # Favicon
-│   └── neural-background.svg   # Neural network background
-└── README.md                   # This documentation file
-```
+Everything here is education and policy literacy only. It is not medical advice, a diagnosis, a prescription, or an offer of psychedelic-assisted therapy. Psychedelics do not cure disease; the archive discusses how they may help some people when used safely, legally and well, alongside the care people already receive. Questions about any medication belong with the client's own prescriber and care team.
 
 ## Pages
 
-1. **Homepage (index.html)**
-   - Hero section with main messaging
-   - Welcome section highlighting purpose
-   - Services preview with key offerings
-   - Educational preview and evidence
+Main navigation (identical on every page):
 
-2. **About Page (about.html)**
-   - Professional background
-   - Expertise and qualifications
-   - Philosophy and mission
+| Page | File |
+| --- | --- |
+| For Practicum Supervisors | `practicum/for-practicum-supervisors.html` |
+| Sophrodelic Legal Magic Mushroom Retreat | `retreat.html` |
+| Home | `index.html` |
+| About | `about.html` |
+| Services | `services.html` |
+| Educational Resources | `educational-resources.html` |
+| Contact | `contact.html` |
+| The Role I Am Training Toward | `practicum/the-role-i-am-training-toward.html` |
+| Terms of Service | `terms/terms.html` (includes the Privacy Policy and Disclaimer sections) |
+| Published Articles | `published-articles.html` |
 
-3. **Services Page (services.html)**
-   - Consultation services information
-   - Donation-based pricing model
-   - Target audiences (medical professionals, psychonauts, patients, etc.)
-   - Retreat partnership information
+Practicum pages (linked from For Practicum Supervisors):
 
-4. **Educational Resources (educational-resources.html)**
-   - Main page with introduction to educational content
-   - Separate sections for "Educational Events" and "Resources"
-   - Each event and resource should link to its own dedicated page
-   - Research evidence on psychedelic therapies
-   - Links to in-depth resources on specific conditions
-   - Scientific references and citations
+- `practicum/education-and-credentials.html`
+- `practicum/what-a-pharmacist-adds.html`
+- `practicum/medication-safety-screening.html`
+- `practicum/harm-reduction-in-practice.html`
+- `practicum/rural-remote-and-northern-practice.html`
+- `practicum/two-eyed-seeing.html`
+- `practicum/practicum-faq.html`
+- `practicum/about-this-archive.html`
 
-5. **Published Articles (published-articles.html)**
-   - Mike's published works
-   - External resources and collaborations
-   - Links to industry organizations
+Educational resource pages (linked from Educational Resources):
 
-6. **Retreat Page (retreat.html)**
-   - Sophrodelic Legal Magic Mushroom Retreat information
-   - What is sophrology and how it works
-   - Retreat details and core values
+- `events/introduction-new-era.html`
+- `events/spiritual-wellness.html`
+- `events/wellness-of-the-well.html`
+- `events/wellness-of-the-planet.html`
+- `events/physical-well-being.html`
+- `resources/ptsd.html`
+- `resources/end-of-life-distress.html`
+- `resources/substance-use-disorder.html`
 
-7. **Resource Pages (in resources/ directory)**
-   - In-depth pages on specific conditions treated with psychedelics
-   - Research evidence and personal accounts
-   - Comparison with conventional treatments
-   - Links to downloadable resources
+## Project structure
 
-8. **Event Pages (in events/ directory)**
-   - Dedicated pages for each educational event
-   - Detailed information about event topics
-   - Registration or participation information
-   - Related educational materials
+```
+/
+├── index.html
+├── about.html
+├── services.html
+├── contact.html
+├── educational-resources.html
+├── published-articles.html
+├── retreat.html
+├── practicum/                  # practicum-campaign pages
+│   ├── for-practicum-supervisors.html
+│   ├── the-role-i-am-training-toward.html
+│   ├── education-and-credentials.html
+│   ├── what-a-pharmacist-adds.html
+│   ├── medication-safety-screening.html
+│   ├── harm-reduction-in-practice.html
+│   ├── rural-remote-and-northern-practice.html
+│   ├── two-eyed-seeing.html
+│   ├── practicum-faq.html
+│   └── about-this-archive.html
+├── events/                     # archived educational resources (wellness themes)
+│   ├── introduction-new-era.html
+│   ├── spiritual-wellness.html
+│   ├── wellness-of-the-well.html
+│   ├── wellness-of-the-planet.html
+│   └── physical-well-being.html
+├── resources/                  # archived educational resources (conditions)
+│   ├── ptsd.html
+│   ├── end-of-life-distress.html
+│   └── substance-use-disorder.html
+├── terms/
+│   └── terms.html              # Terms of Service, Privacy Policy, Disclaimer
+├── css/
+│   ├── normalize.css
+│   ├── style.css
+│   ├── hero-fallback.css       # also provides the text/dot social-link fallback
+│   ├── premium-cards.css
+│   └── svg-effects.css
+├── js/
+│   └── main.js                 # mobile nav toggle, smooth scrolling
+├── images/
+│   ├── hra-logo.png
+│   ├── hra-logo-apple.png
+│   ├── logo.svg
+│   ├── hero/
+│   ├── about/
+│   ├── resources/
+│   └── retreat/
+├── svg/
+│   ├── logo.svg
+│   ├── favicon.svg
+│   └── neural-background.svg
+└── README.md
+```
 
-## Design Elements
+## Shared header and footer
 
-- **Color Palette**: Purple, teal, and pink gradients on dark backgrounds
-- **Typography**: 
-  - Philosopher font for headings
-  - Raleway for body text
-- **Visual Elements**:
-  - SVG animations
-  - Neural network visualizations
-  - Premium card components with hover effects
-  - Psychedelic gradients for emphasis
+Every page carries the same header navigation (listed above) and the same footer:
 
-## Technologies Used
+- Tagline: "HarmReductionAdvocate.com — Psychedelic Education and Harm Reduction Resources. This site is an educational archive."
+- Contact: mbonertz@ualberta.ca
+- Social links: Instagram, LinkedIn, TikTok and Linktree (all real profile URLs; no placeholders)
+- Disclaimer: "R.E.L.’s education and consulting services are not a substitute for medical advice or services, as provided by an appropriately licensed physician, psychiatrist, or similar, we aim to bridge the gap for folks who may not have immediate access to those services. Education, not medical advice."
+- Copyright: © 2026 Harm Reduction Advocate. All rights reserved.
 
-- HTML5
-- CSS3 (with custom properties/variables)
-- JavaScript
-- SVG animations
-- Font Awesome icons
-- Google Fonts
+Relative paths use a `../` prefix on pages inside `practicum/`, `events/`, `resources/` and `terms/`.
 
-## Educational Resources
+## Wording that this archive keeps consistent
 
-The site provides comprehensive educational resources on various applications of psychedelic therapy:
+The live site's wording is the source of truth. When editing, keep these conventions:
 
-- PTSD and trauma healing
-- End of life distress and terminal illness
-- Substance use disorders and addiction
-- Physical wellness
-- Spiritual and environmental connection
-- Neurodegenerative diseases
+- Mike Bonertz is "a student counsellor in training" (Student Counsellor in Training — MPS Candidate, St. Stephen's College). He holds no protected title.
+- Sixteen years as a licensed pharmacist, and more than twenty years in pharmacies all told. Registered with the College of Pharmacists of British Columbia, Full Pharmacist class, in good standing.
+- Responsible Empowered Living, a Canadian Harm Reduction Non-Profit (2022–2025), is described in the past tense; this site is an educational archive of that work.
+- Psychedelics are discussed as something that may help with healing, used safely, legally and well, alongside the care people already receive. Psychedelics do not cure disease, and there is no language about reducing, stopping or replacing medications: that decision belongs to the client's own prescriber.
+- Publications: "contributed to" the Substance Guides; Drug Science — Named author, International Policy; the Heroic Dose article (Psychedelic Scene, 31 May 2023; it also appears in Psychedelic Pathways Issue 3, 2025 — never "republished") co-written with Bénédicte Mannix; Risks to the Heart under its full live title and verbatim byline; MAPS Canada listed as separate entries (the Tip Sheet credit; membership of the Psychedelic Access Community of Practice since November 2022; School of Psychedelics training).
+- Legal name "Micheal Francis Bonertz" where the live page uses it; "Mike Bonertz" elsewhere.
+- Publications: the canonical register is kept outside this repository and every entry here is
+  derived from it. "From Taboo to Treatment: The Case for Compassionate Access to Psilocybin in
+  the UK" is credited to Drug Science, 2023 — not PsiloNautica, and not both. The report's cover
+  and About page do name PsiloNautica, but the author James Bunn settled the credit himself on
+  25 Aug 2026 ("feel free to credit it to Drug Science as that's the more well known organisation
+  of the two"), and Addendum 94 of 29 Aug 2026 closed the campaign's L4 locked string on that
+  basis. Mike is named on the report's Authors page for the International Policy section, one of
+  ten people named there. The report runs to seventy-nine pages (verified with pdfinfo against
+  the archived PDF; an older record said 76). Two things are NOT claimable and must stay off every
+  surface: that five governments requested a pre-publication review, and any association with
+  Oxford, Yale, UCL or the NHS — none of those appears anywhere in the report (verified 8 Sep
+  2026; the Authors page names the University of Manchester and PsiloNautica only).
+  The MAPS Canada Tip Sheet names him under its "Developed by" credit, one of nine; the separate
+  "Designed by" credit belongs to Sunny Yimeng Dong, and there is no author line (verified at the
+  cover, 9 Sep 2026). The November 2025 updated edition carries the same credit, so the site states
+  both editions. An earlier reading of this repo inverted those labels and has been corrected.
 
-## Educational Resources Structure
+## Three sites, one source
 
-The educational resources section is structured with clear separation between events and resources:
+This content exists in three places. They are not three equal websites; they are one canonical site and
+two mirrors, and the difference is what keeps them out of each other's way in search.
 
-1. **Separate Categories**:
-   - Educational Events and Resources are separated into distinct sections with visual separation
-   - Each section has its own heading and styling to differentiate them
-   - The Events section appears first, followed by Resources
+| # | Site | Role | How it is updated |
+|---|------|------|-------------------|
+| 1 | https://www.harmreductionadvocate.com/ | **Canonical.** The brand domain, on Squarespace. | By hand, using the paste blocks generated alongside this repo |
+| 2 | https://psychedelicpharmacist.github.io/ | **Live mirror.** GitHub Pages, `psychedelicpharmacist` account. | `./sync-sites.sh publish` |
+| 3 | `mbonertz` account | **Backup mirror.** University identity. | the same push |
 
-2. **Individual Pages**:
-   - Each event and resource links to its own dedicated page
-   - Event links point to files in the `events/` directory
-   - Resource links point to files in the `resources/` directory
+Mirrors 2 and 3 are served from THIS repository, so one push updates both and they cannot drift apart.
 
-3. **Navigation Structure**:
-   - Each event page has a "Back to Educational Events" link at the top left
-   - Each resource page has a "Back to Resource Pages" link at the top left
-   - These back links use anchor IDs (#events-section and #resources-section) to return to the specific section
+### Why the mirrors do not compete with the brand domain
 
-4. **Content Organization**:
-   - Educational resources focus on condition-specific information (PTSD, substance use disorder, etc.)
-   - Educational events focus on broader psychedelic education topics (spiritual wellness, wellness of the planet, etc.)
-   - Each page maintains consistent styling with the main site
+Three identical sites would normally split their ranking signals and compete with one another. Every page
+here declares `<link rel="canonical">` pointing at the matching page on harmreductionadvocate.com, so
+search engines consolidate everything on the brand domain. `robots.txt` deliberately **allows** crawling,
+because a crawler has to read a page to see its canonical tag; a `Disallow` would hide the canonical and
+leave the duplicate unresolved. Do not add `Disallow` rules without first removing the canonical tags.
 
-## Logo Information
+`terms/terms.html` is the one page without a cross-domain canonical. It is frozen (see below), so the
+metadata pass never touched it. That is deliberate.
 
-The website's main logo (snake wrapped around a wooden staff) is used in the following files:
+### What the mirrors are actually for
 
-- **Main Logo**: `images/hra-logo.png` - Used throughout the site as the main logo
-- **Apple Touch Icon**: `images/hra-logo-apple.png` - Used for iOS devices when saved to home screen
+- **Redundancy.** Squarespace is a single point of failure and a recurring bill. These copies are free,
+  independently hosted, and always current.
+- **An audit trail.** Git records every change to these public claims with a date, which matters when a
+  professional body or a placement site asks what was published and when. Squarespace cannot do that.
+- **A free exit.** GitHub Pages supports custom domains. Pointing harmreductionadvocate.com here would
+  serve the same site at the same address with no content migration and no hosting fee.
 
-To update the logo:
-1. Replace these files with your new logo design (ideally maintaining the same dimensions)
-2. Ensure the new logo has a transparent background for proper display
-3. Consider creating multiple sizes if needed for different display contexts
+### Publishing
 
-## Updating Contact Information
+```
+./sync-sites.sh check      # verify only: clean tree, frozen file intact, links, metadata, canonicals
+./sync-sites.sh status     # what each of the three sites currently carries
+./sync-sites.sh publish    # run every check, then push to both accounts
+```
 
-To update the website's contact information, you will need to modify the following files:
+`publish` refuses to run while any check fails, including if the frozen Terms page has been modified.
 
-### 1. Contact Page Email Address
+### Frozen page: terms/terms.html
 
-The primary contact email address appears in `contact.html`:
+**Do not change this file. Ever.**
 
-- **Location**: In the contact form and contact details section
-- **Files to Edit**: `contact.html`
-- **What to Update**:
-  - Find the section with the email address display (typically inside a `<p>` tag)
-  - Update the visible email text
-  - Also update the `mailto:` link in the same section
-  - Example: `<a href="mailto:mike@harmreductionadvocate.com">mike@harmreductionadvocate.com</a>`
+The Terms of Service page is final as of 2026-09-08. It carries the compliance wording that the
+rest of the archive uses: Responsible Empowered Living in the past tense as a Canadian Harm
+Reduction Non-Profit (2022-2025), the contact link resolved, and a real inbox for the linking
+enquiry instruction. That state was reviewed and settled by the site owner.
 
-### 2. Social Media Links
+This page is exempt from every future editing pass, including wording sweeps, banned-string
+scans, link rewrites, meta or template refreshes, and any parity run against the live site.
+Automated checks may read it and report on it; nothing may write to it. If the live
+harmreductionadvocate.com Terms of Service is ever revised, the owner decides whether and how
+this mirror follows, page by page.
 
-Instagram is the only social media platform used on the website:
+## Technologies
 
-- **Location**: In the `<header>` and `<footer>` sections of all HTML files
-- **Files to Edit**: All HTML files (using search and replace is recommended)
-- **What to Update**:
-  - Find Instagram link elements: `<a href="#" class="social-link instagram"><i class="icon-instagram"></i></a>` or `<a href="#" class="social-link instagram"><i class="fab fa-instagram"></i></a>`
-  - Replace the `#` placeholder with the actual Instagram profile URL
-  - Example: `<a href="https://www.instagram.com/harmreductionadvocate" class="social-link instagram"><i class="fab fa-instagram"></i></a>`
-  - Update all instances across all HTML files for consistency
-  - Note: The site previously had LinkedIn and TikTok links which have been removed to focus only on Instagram
+- HTML5, CSS3 (custom properties), vanilla JavaScript
+- Inline SVG animations
+- Google Fonts (Philosopher, Raleway)
 
-### 3. Legal Pages and Terms Links
+## Maintaining the site
 
-All legal content is located in the `terms/` directory:
-
-- **Location**: Links to these pages appear in the footer of all HTML files
-- **Files to Edit**: 
-  - Main pages: All HTML files in the root directory
-  - Resource pages: All HTML files in the `resources/` directory
-  - Event pages: All HTML files in the `events/` directory
-- **What to Update**:
-  - Footer links for Terms of Service: `<a href="terms/terms.html">Terms of Service</a>` (or `<a href="../terms/terms.html">Terms of Service</a>` for subdirectory pages)
-  - Footer links for Privacy Policy: `<a href="terms/privacy.html">Privacy Policy</a>` (or `<a href="../terms/privacy.html">Privacy Policy</a>` for subdirectory pages)
-  - Footer links for Disclaimer: `<a href="terms/disclaimer.html">Disclaimer</a>` (or `<a href="../terms/disclaimer.html">Disclaimer</a>` for subdirectory pages)
-  - Important: Make sure paths are correct based on the file's location (use `../` prefix for files in subdirectories)
-
-### 4. Footer Contact Information
-
-Additional contact details may appear in the footer:
-
-- **Location**: In the `<footer>` section, typically within the `.footer-contact` div
-- **Files to Edit**: All HTML files with footers
-- **What to Update**:
-  - Find any additional contact details in the footer section
-  - Update phone numbers, addresses, or other contact information as needed
-  - Update any associated links (mailto:, tel:, etc.)
-
-### 5. Contact Form Settings
-
-If the contact form sends to a specific email address:
-
-- **Location**: In the contact form's action attribute or in JavaScript that handles form submission
-- **Files to Edit**: `contact.html` and possibly `js/main.js`
-- **What to Update**:
-  - Check the form's `action` attribute or any JavaScript that handles form submission
-  - Update the destination email address if necessary
-
-## Updating SEO Information
-
-Search Engine Optimization (SEO) elements are crucial for visibility. Here's where to update them:
-
-### 1. Page Titles
-
-Each page has its own title that appears in search results and browser tabs:
-
-- **Location**: In the `<head>` section of each HTML file
-- **Files to Edit**: All HTML files, individually
-- **What to Update**:
-  - Find the `<title>` tag in each file
-  - Update it with a descriptive, keyword-rich title (60 characters max recommended)
-  - Format: "Primary Keyword - Secondary Keyword | Harm Reduction Advocate"
-
-### 2. Meta Descriptions
-
-Meta descriptions provide search result snippets:
-
-- **Location**: In the `<head>` section of each HTML file
-- **Files to Edit**: All HTML files, individually
-- **What to Update**:
-  - Find the `<meta name="description" content="...">` tag
-  - Update with a compelling description (150-160 characters recommended)
-  - Include relevant keywords naturally in the text
-
-### 3. Resource Pages SEO
-
-Resource pages have additional SEO elements for specific topics:
-
-- **Location**: In the `<head>` section of resource HTML files
-- **Files to Edit**: All files in the `resources/` directory
-- **What to Update**:
-  - More extensive meta tags including keywords
-  - Open Graph and Twitter card information for social sharing
-  - Structured data in JSON-LD format
-
-### 4. Canonical URLs
-
-When the site goes live, update canonical URLs:
-
-- **Location**: In the `<head>` section
-- **Files to Edit**: All HTML files
-- **What to Update**:
-  - Find `<link rel="canonical" href="...">` tags
-  - Replace placeholder URLs with actual live site URLs
-  - Example: `<link rel="canonical" href="https://www.harmreductionadvocate.com/resources/ptsd.html">`
-
-### 5. Image Alt Text
-
-Ensure all images have descriptive alt text:
-
-- **Location**: Throughout the HTML files
-- **Files to Edit**: All HTML files with images
-- **What to Update**:
-  - Find `<img>` tags
-  - Ensure each has a descriptive `alt` attribute
-  - Example: `<img src="images/hra-logo.png" alt="Harm Reduction Advocate Logo" ...>`
-
-## Content Management Instructions
-
-1. **Adding New Resources**:
-   - Create a new HTML file in the `resources/` directory
-   - Use existing resource files as templates
-   - Add a link to the new resource in `educational-resources.html` under the "Resource Pages" section
-
-2. **Adding New Events**:
-   - Create a new HTML file in the `events/` directory
-   - Use existing event files as templates
-   - Add a link to the new event in `educational-resources.html` under the "Educational Events" section
-
-3. **Updating Research Evidence**:
-   - Edit the "Research Evidence" section in `educational-resources.html`
-   - Follow the existing format for new evidence categories
-   - Include proper citations and links to sources
-
-4. **General Content Updates**:
-   - Use consistent formatting throughout the site
-   - Maintain the distinction between educational events and resource pages
-   - Ensure all downloadable resources (Word docs) in the `zip/REL/` directory are up to date
+- Header and footer are identical on every page; update them everywhere at once (search and replace across all `.html` files, respecting the `../` prefix).
+- New practicum pages go in `practicum/` and should be linked from `practicum/for-practicum-supervisors.html`.
+- New archived resources go in `events/` or `resources/` and should be linked from `educational-resources.html`.
+- Every relative `href`/`src` must resolve to a file in this repository.
