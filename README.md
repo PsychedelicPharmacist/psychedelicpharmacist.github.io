@@ -26,7 +26,6 @@ Main navigation (identical on every page):
 | Services | `services.html` |
 | Educational Resources | `educational-resources.html` |
 | Contact | `contact.html` |
-| The Role I Am Training Toward | `practicum/the-role-i-am-training-toward.html` |
 | Terms of Service | `terms/terms.html` (includes the Privacy Policy and Disclaimer sections) |
 | Published Articles | `published-articles.html` |
 
@@ -65,7 +64,6 @@ Educational resource pages (linked from Educational Resources):
 ├── retreat.html
 ├── practicum/                  # practicum-campaign pages
 │   ├── for-practicum-supervisors.html
-│   ├── the-role-i-am-training-toward.html
 │   ├── education-and-credentials.html
 │   ├── what-a-pharmacist-adds.html
 │   ├── medication-safety-screening.html
@@ -218,3 +216,5 @@ this mirror follows, page by page.
 - New practicum pages go in `practicum/` and should be linked from `practicum/for-practicum-supervisors.html`.
 - New archived resources go in `events/` or `resources/` and should be linked from `educational-resources.html`.
 - Every relative `href`/`src` must resolve to a file in this repository.
+
+> 27 Oct 2026: "The Role I Am Training Toward" (`/menu-1`, formerly `practicum/the-role-i-am-training-toward.html`) was deleted from the live site at Mike's instruction and removed from this copy so no sync or restore brings it back. The frozen Terms page still names it in its navigation (the freeze forbids editing that file).
